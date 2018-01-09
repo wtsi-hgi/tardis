@@ -14,7 +14,9 @@ Requirements
 Fetching TARDIS
 ===============
 
-	git clone https://github.com/calkan/tardis.git --recursive
+	git clone --recurse-submodules https://github.com/BilkentCompGen/tardis.git
+
+Note: Use the `--recursive` flag, instead, in older versions of Git.
 
 Compilation
 ===========
